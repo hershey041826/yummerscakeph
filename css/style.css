@@ -302,12 +302,29 @@ margin: 1px;
 }
 
 .dropdown {
-  padding-top: 7rem;
+  padding-top: 6rem;
 }
 
 .dropdown #dropdownMenuButton {
   font-size: 1.5rem;
 }
+.dropdown a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.5rem;
+  color: #141414;
+  padding: .8rem;
+}
+.dropdown ul {
+  background-color: #fbd4c9;
+}
+
+#dropdown .dropdown-menu li:hover{
+  background: #C98d1b;
+  color: #FBFBF7;
+  border-radius: 5px;
+}
+
 
 #exampleInputEmail1,
 #exampleInputPassword1,
