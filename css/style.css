@@ -277,7 +277,8 @@ font-size: 1.3rem;
 margin: 1px;
 }
 #dedication .bi,
-#customized .bi 
+#customized .bi,
+#classic .bi 
 {
     color: #C98d1b; 
     border: #fbd4c9 2px solid;
