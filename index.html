@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/amarillo" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/coolvetica-2" rel="stylesheet">               
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Yummer's cake | Welcome</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#main_menu"
+  class="body">
+    <!-- NAVBAR -->
+    <nav
+      id="main_menu"
+      class="navbar navbar-expand-md navbar-light fixed-top font-2" 
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="./images/LOGO.png" alt="Yummer's cake Logo" width="100" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mainMenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto h4 gap-lg-4">
+            <li><a href="#slider" class="nav-link">Home</a></li>
+            <li><a href="#products" class="nav-link">Products</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="login.html" class="nav-link">Login</a></li>
+            <li><a href="cart.html" class="nav-link"> <i class="bi bi-cart-plus-fill"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- Carousel / Hero -->
+<section
+id="slider"
+class="carousel slide carousel-fade"
+data-bs-ride="carousel"
+data-bs-touch="true"
+>
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="./images/features/qoutes.png" alt="cupcakes" class="d-block w-100" />
+  </div>
+  <div class="carousel-item active">
+    <img src="./images/features/cupcakes.png" alt="cupcakes" class="d-block w-100" />
+  </div>
+  <div class="carousel-item active">
+    <img src="./images/features/slide2.png" alt="cakes" class="d-block w-100" />
+  </div>
+  <div class="carousel-item active">
+    <img src="./images/features/cakes.png" alt="cakes" class="d-block w-100" />
+  </div>
+</div>
+<button
+  class="carousel-control-prev"
+  type="button"
+  data-bs-target="#slider"
+  data-bs-slide="prev"
+>
+  <span class="carousel-control-prev-icon"></span>
+</button>
+<button
+  class="carousel-control-next"
+  type="button"
+  data-bs-target="#slider"
+  data-bs-slide="next"
+>
+  <span class="carousel-control-next-icon"></span>
+</button>
+</section>
+<!-- Products -->
+<section id="products" class="mt-5 pb-5">
+  <div class="container">
+    <div class="row mb-3">
+      <div class="text-center">
+        <h2 class="font-1 pt-5">Our Products</h2>
+      </div>
+    </div>
+          <!-- Para sa Cards -->
+          <!-- 1st card -->
+          <div class="row pt-5 g-4" id="card">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="./images/products/dedication cake (1).jpg" alt="Dedication Cake" class="card-img-top">
+                  <div class="overlay">   
+                    <a class="info font-2" href="All_products.html#dedication">See Products</a>
+                  <h4 class="card-title font-1" >Dedication Cake</h4>
+                  <p class="card-text font-2">
+                    A dedication cake is a beautiful and delicious cake that is decorated with meaningful and commemorative messages.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!-- 2nd card -->
+            <div class="col-md-4">
+              <div class="card">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="./images/products/Customized cake (1).jpg" alt="Customized Cake" class="card-img-top">
+                  <div class="overlay">   
+                    <a class="info font-2" href="All_products.html#customized">See Products</a>
+                  <h4 class="card-title font-1" >Customized Cake</h4>
+                  <p class="card-text font-2">
+                    A customized cake is a unique and personalized cake that is tailored to suit your specific event or occasion it is a perfect way to add a love to the occasion.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+            <!-- 3rd card -->
+            <div class="col-md-4">
+              <div class="card">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="./images/products/classic cakes (1).jpg" alt="classic cake" class="card-img-top">
+                  <div class="overlay">   
+                    <a class="info  font-2" href="All_products.html">See Products</a>
+                  <h4 class="card-title font-1" >Classic Cakes</h4>
+                  <p class="card-text font-2">
+                    A classic cake is a traditional dessert are a timeless treat that is perfect for any occasion, like a holiday celebration, or a simple dessert after dinner.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!-- 4th card -->
+            <div class="col-md-4">
+              <div class="card">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="./images/products/themed cake (1).jpg" alt="Themed Cake" class="card-img-top">
+                  <div class="overlay">   
+                    <a class="info font-2" href="All_products.html">See Products</a>
+                  <h4 class="card-title font-1" >Themed cakes</h4>
+                  <p class="card-text font-2">
+                    A themed cake is a type of cake that is designed to match a specific theme or occasion, it a creative way to add a special touch to any celebration.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!-- 5th card -->
+            <div class="col-md-4">
+              <div class="card">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="./images/products/wedding cake (1).jpg" alt="Wedding cake" class="card-img-top">
+                  <div class="overlay">   
+                    <a class="info font-2" href="All_products.html">See Products</a>
+                  <h4 class="card-title font-1" >Wedding Cake</h4>
+                  <p class="card-text font-2">
+                    A wedding cakes can be customized to match the theme or colors of the wedding, it is often decorated with elegant designs. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!-- 6th card -->
+            <div class="col-md-4">
+              <div class="card">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="./images/products/seasonal cake (1).jpg" alt="Seasonal Cake" class="card-img-top">
+                  <div class="overlay">   
+                    <a class="info font-2" href="All_products.html">See Products</a>
+                  <h4 class="card-title font-1" >Seosonal Cake</h4>
+                  <p class="card-text font-2">
+                    A seasonal cakes can be customized to match the themes or colors of the holiday, it is a perfect way to spread joy and celebrate the season with loved ones.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+            <!-- 7th card -->
+            <div class="col-md-4">
+              <div class="card">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="./images/products/cup cakes (1).jpg" alt="Cup Cakes" class="card-img-top">
+                  <div class="overlay">   
+                    <a class="info font-2" href="All_products.html">See Products</a>
+                  <h4 class="card-title font-1" >Cup Cakes</h4>
+                  <p class="card-text font-2">
+                    Cupcake is a treat with a fluffy cake base, topped with rich and creamy frosting and a playful array of colorful sprinkles.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!-- 8th card -->
+            <div class="col-md-4">
+              <div class="card">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="./images/products/pastries (1).jpg" alt="Pastries" class="card-img-top">
+                  <div class="overlay">   
+                    <a class="info font-2" href="All_products.html">See Products</a>
+                    <h4 class="card-title font-1" >Pastries</h4>
+                  <p class="card-text font-2">
+                    Treat yourself to a scrumptious assortment of pastries, from buttery croissants to flaky turnovers filled with sweet fruits and rich custards.
+                  </p>
+                </div>
+                </div>
+              </div>
+            </div>
+            <!-- 9th card -->
+            <div class="col-md-4 ">
+              <div class="card">
+              <div class="hovereffect">
+                <img class="img-responsive" src="./images/features/party needs.png" alt="Party Needs" class="card-img-top">
+                <div class="overlay">   
+                  <a class="info font-2" href="All_products.html">See Products</a>
+                  <h4 class="card-title font-1" >Add Ons</h4>
+                  <p class="card-text font-2">
+                    Whether you're throwing a birthday bash or hosting a holiday gathering, our party supplies are sure to add a festive touch to any occasion.
+                  </p>
+              </div>
+              </div>
+            </div>
+            </div>
+            </div>
+          </div>
+      </section>
+      <!-- about -->
+      <section id="about" class="pt-md-5 pt-10">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 align-self-center">
+              <h2 class="font-1 ">About Us</h2>
+              
+              <p class="lead my-4 pt-3">
+                <span class="font-1"><em>Yummer's cake ph.</em></span> <span class="font-2 ">is a delightful neighborhood destination that boasts an impressive array of scrumptious baked goods. From timeless chocolate chip cookies to delicate macarons and beautifully adorned cakes, our selection is sure to please. The ambiance inside the shop is warm and inviting, with helpful staff always on hand to help you select the perfect indulgence. </span>
+              </p>
+            </div>
+            <div id="about" class="col-md-4 align-self-lg-center">
+              <img src="./images/features/IMG4.png" alt="Cake" class="img-fluid w-100 d-none d-sm-block" />
+            </div>
+          </div>
+        </div>
+        <section id="work" class="mt-5 pb-5">
+            <div class="container">
+              <div class="row mb-3">
+                <div class="text-start pt-2">
+                  <h2 class="font-1 pt-3">Meet Our Team</h2>
+                  <p class="lead my-4 pt-3 font-2">
+                    Our team is made up of a diverse group of individuals who bring unique perspectives and skills to the table. We work collaboratively to achieve our shared goals and are committed to delivering high-quality results to our clients. Each member of our team is dedicated to their role and takes pride in their work.
+                  </p>
+                </div>
+              </div>
+      
+              <!-- Para sa Cards -->
+              <div class="row pt-3 g-4" id="card">
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="./images/features/baker1.png" alt="Baker1" class="card-img-top"/>
+                    <div class="card-body">
+                      <h4 class="card-title font-1 pt-2" >Mae</h4>
+                      <p class="card-text font-2">
+                        Our head baker is a known true master of the craft, creating delicious and visually stunning baked goods that delight our customers.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- 2nd card -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="./images/features/baker2.jpg" alt="Baker2" class="card-img-top" />
+                    <div class="card-body">
+                      <h4 class="card-title font-1 pt-2">Chris</h4>
+                      <p class="card-text font-2">
+                        Our cake designer is an expert in crafting beautiful cakes that not only look stunning but taste absolutely divine to delight the senses.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+      
+                <!-- 3rd card -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="./images/features/baker3.jpg" alt="Baker3" class="card-img-top" />
+                    <div class="card-body">
+                      <h4 class="card-title font-1 pt-2">Diego</h4>
+                      <p class="card-text font-2">
+                        Our skilled baker's assistant is an invaluable asset, helping with prep work, baking, decorating, and ensuring the final product is perfect.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Testimonials -->
+          <section id="work" class="mt-5 pb-5">
+            <div class="container">
+              <div class="row mb-3">
+                <div class="text-start pt-2">
+                  <h2 class="font-1 pt-3">Testimonials</h2>
+                  <p class="lead my-4 pt-3 font-2">
+                    Customers have raved about the unforgettable pastries and cakes at this bakeshop, with many describing them as simply divine and a true work of art. Let's here from them.
+                  </p>
+                </div>
+              </div>
+              <div class="Testimonials">
+              <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <img
+                        src="https://randomuser.me/api/portraits/men/3.jpg"
+                        alt="Random men picture"
+                        class="rounded-circle mb-3"
+                      />
+                      <h3 class="card-title mb-3 font-1">Allen Yu</h3>
+                      <p class="card-text font-2">
+                        Their cakes are not only beautiful but also incredibly tasty, the best bakeshop in town! 
+                      </p>
+                      <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                      <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                      <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                      <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Second Person -->
+                <div class="col-md-6 col-lg-3">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <img
+                        src="https://randomuser.me/api/portraits/women/3.jpg"
+                        alt="Random women picture"
+                        class="rounded-circle mb-3"
+                      />
+                      <h3 class="card-title mb-3 font-1">Emily Reyes</h3>
+                      <p class="card-text font-2">
+                        A hidden gem for baked goods in the area. I would highly recommend this bakeshop to anyone.
+                      </p>
+                      <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                      <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                      <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                      <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Third Person -->
+                <div class="col-md-6 col-lg-3">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <img
+                        src="https://randomuser.me/api/portraits/men/4.jpg"
+                        alt="Random men picture"
+                        class="rounded-circle mb-3"
+                      />
+                      <h3 class="card-title mb-3 font-1">Rey Santos</h3>
+                      <p class="card-text font-2">
+                        The selection of baked goods never disappoints, the perfect place to satisfy your sweet tooth cravings.
+                      </p>
+                      <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                      <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                      <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                      <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Fourth Person -->
+                <div class="col-md-6 col-lg-3">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <img
+                        src="https://randomuser.me/api/portraits/women/4.jpg"
+                        alt="Random women picture"
+                        class="rounded-circle mb-3"
+                      />
+                      <h3 class="card-title mb-3 font-1">Beth Cruz</h3>
+                      <p class="card-text font-2">
+                        Friendly staff and cozy atmosphere make for a perfect visit and The cakes are simply divine - a must-try.
+                      </p>
+                      <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                      <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                      <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                      <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+      </section>
+      <!-- footer -->
+  <footer id="footer" class="pt-5 pb-2 position-relative">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+      <div class="social">
+    <a href="https://www.facebook.com/yummerscakesPH"><i class="bi bi-facebook text-dark"></i></a>
+    <a href="https://www.instagram.com/yummerscakesph/?hl=en"><i class="bi bi-instagram text-dark"></i></a>
+    <a href="#"><i class="bi bi-tiktok text-dark"></i></a>
+      </div>
+  </div> 
+  </div>
+</div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="font-2">Copyright 2023 | Yummers Cake Ph. </p>
+          <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1 text-dark "></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

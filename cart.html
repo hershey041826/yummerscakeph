@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/amarillo" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/coolvetica-2" rel="stylesheet">               
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Yummer's cake | Welcome</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#main_menu"
+  class="body">
+    <!-- NAVBAR -->
+    <nav
+      id="main_menu"
+      class="navbar navbar-expand-md navbar-light fixed-top font-2" 
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="./images/LOGO.png" alt="Yummer's cake Logo" width="100" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mainMenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto h4 gap-lg-4">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="index.html#products" class="nav-link">Products</a></li>
+            <li><a href="index.html#about" class="nav-link">About</a></li>
+            <li><a href="login.html" class="nav-link">Login</a></li>
+            <li><a href="cart.html"> <i id="active" class="bi bi-cart-plus-fill"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- Cart -->
+<section id="cart" class="h-100 h-custom">
+    <div class="container h-100 py-5">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col">
+          <div class="card shopping-cart" style="border-radius: 15px;">
+            <div class="card-body text-black">
+  
+              <div class="row">
+                <div class="col-lg-6 px-5 py-4">
+  
+                  <h3 class="mb-5 pt-2 text-center fw-bold text-uppercase">Your products</h3>
+  
+                  
+                  </div>
+                </div>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+  </section>
+
+      <!-- footer -->
+  <footer id="footer" class="pt-5 pb-2 position-relative">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+      <div class="social">
+    <a href="https://www.facebook.com/yummerscakesPH"><i class="bi bi-facebook text-dark"></i></a>
+    <a href="https://www.instagram.com/yummerscakesph/?hl=en"><i class="bi bi-instagram text-dark"></i></a>
+    <a href="#"><i class="bi bi-tiktok text-dark"></i></a>
+      </div>
+  </div> 
+  </div>
+</div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="font-2">Copyright 2023 | Yummers Cake Ph. </p>
+          <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+<!-- Modal -->
+<div class="modal fade" id="register" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="registerLabel">Register</h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <p class="lead">Fill out to register</p>
+        <form action="process.php">
+          <div class="mb-3">
+            <label for="first_name" class="col-form-label"
+              >First name</label
+            >
+            <input type="text" class="form-control" id="first_name" />
+          </div>
+          <div class="mb-3">
+            <label for="last_name" class="col-form-label">Last name</label>
+            <input type="text" class="form-control" id="last_name" />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="col-form-label">Email</label>
+            <input type="email" class="form-control" id="email" />
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="col-form-label">Phone</label>
+            <input type="text" class="form-control" id="phone" />
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-bs-dismiss="modal"
+        >
+          Close
+        </button>
+        <button type="button" id="modal" class="btn">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
+    <script>
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoiY3Jpc3RlbDA2IiwiYSI6ImNsbW5qZ280OTBzbDkya3BucXcwaTlodW8ifQ._WnvGzLHhhPdIzh7XgvJyg";
+      var map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/mapbox/streets-v11",
+        center: [121.08321571120655, 14.85465875949103],
+        zoom: 18,
+      });
+    </script>
+  </body>
+</html>
