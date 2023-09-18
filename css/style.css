@@ -278,7 +278,13 @@ margin: 1px;
 }
 #dedication .bi,
 #customized .bi,
-#classic .bi 
+#classic .bi,
+#themed .bi,
+#wedding .bi,
+#seasonal .bi,
+#number .bi,
+#cupcake .bi,
+#addons .bi
 {
     color: #C98d1b; 
     border: #fbd4c9 2px solid;
@@ -303,7 +309,7 @@ margin: 1px;
 }
 
 .dropdown {
-  padding-top: 6rem;
+  padding-top: 6rem; 
 }
 
 .dropdown #dropdownMenuButton {
