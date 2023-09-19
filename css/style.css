@@ -23,7 +23,7 @@ border-bottom: #C98d1b 2px solid;
 
 #main_menu .bi {
   color: #C98d1b;
-  font-size: 50px;
+  font-size: 30px;
   -webkit-text-stroke: .5px #141414;
 }
 
@@ -313,7 +313,7 @@ margin: 1px;
 
 .dropdown {
   padding-top: 6rem;
-  margin-right: 10%;
+  margin-right: 7%;
 }
 
 .dropdown #dropdownMenuButton {
