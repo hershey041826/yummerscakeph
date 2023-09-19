@@ -348,3 +348,72 @@ margin: 1px;
 .forgot {
   color: #C98d1b;
 }
+
+
+
+.qty .count {
+  color: #141414;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 0 2px
+  ;min-width: 35px;
+  text-align: center;
+}
+.qty .plus {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  color: #fbd4c9;
+  width: 30px;
+  height: 30px;
+  font: 30px/1 Arial,sans-serif;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #C98d1b
+  }
+.qty .minus {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  color: #fbd4c9;
+  width: 30px;
+  height: 30px;
+  font: 30px/1 Arial,sans-serif;
+  text-align: center;
+  border-radius: 50%;
+  background-clip: padding-box;
+  background-color: #C98d1b
+}
+
+.minus:hover{
+  background-color: #C98d1b!important;
+}
+.plus:hover{
+  background-color: #C98d1b!important;
+}
+/*Prevent text selection*/
+span{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+input{  
+  border: 0;
+  width: 2%;
+  background-color: #fbd4c9;
+  border-radius: 3px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:disabled{
+  background-color:white;
+}
+       
+
+
