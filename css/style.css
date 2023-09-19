@@ -320,9 +320,13 @@ margin: 1px;
 .dropdown a {
   text-decoration: none;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #141414;
   padding: .8rem;
+}
+
+.dropdown-menu{
+  width: 13rem;
 }
 .dropdown ul {
   background-color: #fbd4c9;
@@ -335,12 +339,13 @@ margin: 1px;
 }
 
 @media (max-width: 768px) {
-  #dropdown .caret  {
+  #dropdown  {
   width: 0%;
-  font-size: 0;
   margin-right: 0%;
   }
 }
+
+
 
 #dedication {
   padding-top: 7rem;
