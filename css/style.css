@@ -71,7 +71,6 @@ border-bottom: #C98d1b 2px solid;
 
 #about {
     background-color: #fbd4c9; 
-    margin-top: 7.5rem;
 }
 
 #about p {
@@ -344,4 +343,8 @@ margin: 1px;
 
 #cart {
   margin-bottom: 45.2rem;
+}
+
+.forgot {
+  color: #C98d1b;
 }
