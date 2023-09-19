@@ -44,13 +44,14 @@ border-bottom: #C98d1b 2px solid;
   border-radius: 5px;
 }
 
+#slider{
+  margin-top: 7.5rem;
+}
 
 #login {
   margin-top: 7.5rem;
 }
-.carousel {
-    margin-top: 7.5rem;   
-}
+
 
 #slider{
     background-color: #fbd4c9;
@@ -93,7 +94,9 @@ border-bottom: #C98d1b 2px solid;
 /* Products */
 #products h2{
     color: #141414;
-    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-width: 2px;
+    margin-top: 5rem; 
+    font-size: 3rem;
 }
 
 
@@ -196,6 +199,7 @@ border-bottom: #C98d1b 2px solid;
   
   #about {
     background-color: #FBFBF7;
+    margin-top: 3rem;
   }
 
   h2 {
@@ -308,7 +312,8 @@ margin: 1px;
 }
 
 .dropdown {
-  padding-top: 6rem; 
+  padding-top: 8rem;
+  margin-right: 17%;
 }
 
 .dropdown #dropdownMenuButton {
@@ -331,6 +336,17 @@ margin: 1px;
   border-radius: 5px;
 }
 
+@media (max-width: 768px) {
+  #dropdown .caret  {
+  width: 0%;
+  font-size: 0;
+  margin-right: 0%;
+  }
+}
+
+#dedication {
+  padding-top: 7rem;
+}
 
 #exampleInputEmail1,
 #exampleInputPassword1,
